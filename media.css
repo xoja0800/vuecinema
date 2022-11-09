@@ -1,0 +1,123 @@
+@media (max-width:1120px){
+    .film__box{
+        gap: 30px;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .film__card{
+        flex-shrink: 0;
+    }
+    .film__box::-webkit-scrollbar{
+        height: 5px;
+    }
+    .film__box::-webkit-scrollbar-thumb{
+        background: linear-gradient(to left, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    }
+}
+@media (max-width: 650px){
+    .title{
+        margin: 30px 0;
+        font-size: 30px;
+        line-height: 120%;
+    }
+    .film__card{
+        width: 220px;
+        height: 300px;
+        padding: 15px;
+    }
+    .play{
+        font-size: 35px;
+    }
+    .film__time{
+        margin-top: 12px;
+        padding: 6px 15px;
+    }
+    .film__title{
+        margin: 12px 0;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .film__text{
+        font-size: 13px;
+        line-height: 130%;
+    }
+    .header{
+        height: 550px;
+        text-align: center;
+    }
+    .header__title{
+        font-size: 55px;
+    }
+    .header__text{
+        margin: 30px 0;
+    }
+    .link{
+        width: 140px;
+        height: 40px;
+    }
+    .header__info{
+        justify-content: center;
+    }
+    .nav__logo img{
+        width: 80px;
+    }
+    .nav__logo{
+        font-size: 16px;
+    }
+}
+@media (max-width: 550px){
+    .header{
+        height: 450px;
+    }
+    .header__title{
+        font-size: 40px;
+    }
+    .header__text{
+        margin: 20px 0;
+        font-size: 15px;
+        line-height: 140%;
+    }
+    .link{
+        width: 120px;
+        height: 35px;
+    }
+    .nav__info{
+        flex-direction: column;
+    }
+    .nav{
+        height: max-content;
+        padding-top: 10px;
+    }
+    .nav__link{
+        margin: 0;
+    }
+    .nav__link span{
+        padding: 12px;
+    }
+    .top__info{
+        height: 60px;
+    }
+    .film__icon{
+        font-size: 30px;
+    }
+    .top__text{
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .top{
+        top: -60px;
+    }
+}
+@media (max-width:420px ){
+    .header{
+        height: 350px;
+    } 
+    .header__title{
+        font-size: 30px;
+    }
+    .header__text{
+        margin: 15px 0;
+        line-height: 130%;
+        font-size:  14px;
+    }
+}
